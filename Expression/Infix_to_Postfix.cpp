@@ -59,7 +59,7 @@ void convert :: scan(void)
             else if (stack[top] == '+' || stack[top] == '-' && ch == '*' || ch == '/')
                { push();   }
                
-            else if (top = -1)
+            else if (top == -1)
               {  push();  }
 
             else
