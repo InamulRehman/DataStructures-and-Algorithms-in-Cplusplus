@@ -7,6 +7,8 @@ class seq
         int arr[10];
         int loc = -1;
     public:
+    
+// program to input values in array
         void input ()
         {
             cout << "Enter values: ";
@@ -17,6 +19,7 @@ class seq
             }
         }
 
+// program to search an item in array
         void search(int val)
         {
             for (int i=0; i<=9; i++)
