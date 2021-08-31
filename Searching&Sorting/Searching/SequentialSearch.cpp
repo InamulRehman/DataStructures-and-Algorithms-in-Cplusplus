@@ -40,9 +40,6 @@ class seq
            
         }
 
-
-
-
 };
 int main ()
 {
