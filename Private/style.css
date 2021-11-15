@@ -1,0 +1,107 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+#outside {
+    z-index: 1;
+    position: absolute;
+    background-color: #0e2424;
+    width: 100%;
+    height: 200%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+    
+  }
+  
+  .open-card {
+    transform: rotateY(90deg);
+  }
+  
+  #outside-title {
+    color: #c5bddd;
+    font-family: Comic Sans Ms;
+    font-size: 16pt;
+    text-align: center;
+  }
+  
+  #outside-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  #outside-help {
+    color: black;
+    font-family: Comic Sans Ms;
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #inside {
+    z-index: 0;
+    position: absolute;
+    background-color: #0e2424;
+    width: 100%;
+    height: 200%;
+    text-align: center;
+  }
+  
+  #inside-title {
+    color: #abfb0e;
+    font-family: Comic Sans Ms;
+    font-size: 20pt;
+    text-align: center;
+    border-radius: 0%;
+  }
+  
+  #inside-pic {
+    height: 500px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  #inside-pic1 {
+    height: 500;
+    width: 250;
+    border-radius: 50%;
+  }
+  
+  #message {
+    color:#d5a0a0;
+   
+    font-size: 18pt;
+    text-align: center;
+  }
+  .btn{
+    position: absolute;
+    font-family: Comic Sans Ms;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  button{
+    background: transparent;
+    color: turquoise;
+    width: 150px;
+    height: 36px;
+    font-family: sans-serif;
+    font-size: 24px;
+    border-color: tomato;
+    font-weight: 600;
+    border-radius: 22px;
+    letter-spacing: 7px;
+    transition: 2s;
+  }
+  button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 50px 0 turquoise,0 20px 100px 0 turquoise;
+    transition: 2s;
+  }
+
+  .col{
+    float: left;
+    width : 50%;
+   
+  }
+   
